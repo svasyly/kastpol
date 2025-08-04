@@ -1,4 +1,4 @@
-# DEPENDENCES
+# DEPENDENCIES
 python3
 numpy
 matplotlib
