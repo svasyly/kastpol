@@ -317,7 +317,7 @@ def run_qu_plotting_and_export(
 
 # --- Main Processing Function ---
 def get_specpol_interactive():
-    print("Starting Interactive Spectral Polarimetry Analysis")
+    print("Starting Interactive Spectropolarimetry Analysis")
     print("=" * 50)
 
     obj_name_base = get_string("Enter the base name for the target object (e.g., sn2023ixf)", allow_empty=False)
@@ -540,7 +540,7 @@ def get_specpol_interactive():
         print("No final results to plot or write from original get_specpol logic.")
 
     print("\n" + "=" * 50)
-    print("Interactive Spectral Polarimetry Analysis Finished.")
+    print("Interactive Spectropolarimetry Analysis Finished.")
     print("=" * 50)
 
 if __name__ == "__main__":
